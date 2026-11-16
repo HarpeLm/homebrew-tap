@@ -1,25 +1,25 @@
 class Cargoscope < Formula
   desc "Understand every dependency in your Rust project: advisories, unused dependencies, licenses, versions and why each one is there"
   homepage "https://github.com/HarpeLm/CargoScope#readme"
-  version "0.7.0"
+  version "0.7.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.7.0/cargoscope-aarch64-apple-darwin.tar.xz"
-      sha256 "41bd9b91d28ecd773661107e468593b2ace1f006d2a7c7606f561d89eef16ecd"
+      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.7.1/cargoscope-aarch64-apple-darwin.tar.xz"
+      sha256 "389388a4acaccd9cb86d8a2747bab4552d8b340401bbf084bb87f76a0dce8b4a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.7.0/cargoscope-x86_64-apple-darwin.tar.xz"
-      sha256 "a1c2b6a91f679f36418e08cbab8ffdbfba7e94f3ddf9bbf5ae1179e9e7233762"
+      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.7.1/cargoscope-x86_64-apple-darwin.tar.xz"
+      sha256 "56b8b74c42db53c4689291af17280b3cbb8ab5457e0916a807627a437c61e28a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.7.0/cargoscope-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ff3eceb2035085ee841cecba4905d533ee51615fc5a320052271ebd14e7a26d4"
+      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.7.1/cargoscope-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a185c86bd2bdf00d8024700f0e75368931380f061ae406e9eb22a9761c5ee045"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.7.0/cargoscope-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "60dffc82b12abad6fccb6d84a040eddae068238646049182ee482ab02fbb9585"
+      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.7.1/cargoscope-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "972c5fef0b1134590a2948709929415ed5e7e197b918e04e6217909b9bc265f9"
     end
   end
   license "MIT"
