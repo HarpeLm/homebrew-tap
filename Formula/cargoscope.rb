@@ -1,25 +1,25 @@
 class Cargoscope < Formula
   desc "Understand every dependency in your Rust project: advisories, unused dependencies, licenses, versions and why each one is there"
   homepage "https://github.com/HarpeLm/CargoScope#readme"
-  version "0.10.0"
+  version "0.11.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.10.0/cargoscope-aarch64-apple-darwin.tar.xz"
-      sha256 "f1eb5ad7286ef816ea7a5a88c3a3ce767009e38a9deb54111c14a695c3097b8a"
+      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.11.0/cargoscope-aarch64-apple-darwin.tar.xz"
+      sha256 "f9477a0dfcbdb72a52bd7d7c03e75ea4ebe0aeaf62fcd0b45b09c9c789fd45d9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.10.0/cargoscope-x86_64-apple-darwin.tar.xz"
-      sha256 "71fa9b60ee9a81ba0f26236350f71c41ac08c864b8661d50012e3fd5e72f62bf"
+      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.11.0/cargoscope-x86_64-apple-darwin.tar.xz"
+      sha256 "f61a10294146fd66657ff5ac32962572851d02ff685b24e12bbd5e96b98368e7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.10.0/cargoscope-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a4deda2ac4c620affddb8d75f8c8c2e6135526ef002ec819d66667232f97c97f"
+      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.11.0/cargoscope-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "c5d91ca3588091157332c92045940464850da6411d67e5eef8838c923982720a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.10.0/cargoscope-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "106ee468570a0dc6f94241a1e553e670e8e694bbcaa3b457ad94d34357bface9"
+      url "https://github.com/HarpeLm/CargoScope/releases/download/v0.11.0/cargoscope-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1084b0726ad6d7c98c5ab4a61dd7a5136b4a391365b1110787587ba41211636a"
     end
   end
   license "MIT"
